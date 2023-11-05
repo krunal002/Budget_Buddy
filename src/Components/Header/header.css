@@ -1,0 +1,30 @@
+header {
+  background-color: var(--tertiary-color);
+  padding: 4px;
+  line-height: 8px;
+  border-bottom: 1px solid var(--secondary-color);
+}
+#h1 {
+  color: var(--primary-color);
+}
+#h2 {
+  color: darkslategrey;
+}
+
+/* navlinks */
+.navlinks-container {
+  padding: 8px;
+  text-align: right;
+}
+.navlink-wrapper {
+  text-decoration: none;
+  color: var(--background-color);
+  margin: 0 8px;
+  cursor: pointer;
+}
+.active {
+  color: var(--primary-color);
+  font-weight: bold;
+  padding: 0 1px;
+  border-bottom: 2px solid var(--primary-color);
+}

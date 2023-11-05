@@ -1,0 +1,37 @@
+:root {
+  --primary-color: #053b50;
+  --secondary-color: #176b8721;
+  --background-color: #eeeeee;
+  --tertiary-color: #64ccc5;
+}
+
+.App {
+  margin: -8px;
+  font-family: sans-serif;
+  text-align: center;
+  background-color: var(--background-color);
+  min-height: 100vh;
+}
+
+.add-data-wrapper {
+  margin: 16px;
+  width: 260px;
+  height: 100px;
+  box-shadow: 1px 2px 5px 2px gray;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  /* background-color: white; */
+}
+.add-data-wrapper:hover {
+  box-shadow: 2px 3px 5px 2px gray;
+}
+.add-border {
+  border: 1px dashed gray;
+  border-radius: 4px;
+}
+
+.skeleton-container {
+  margin: auto;
+  margin-top: 20vh;
+}
